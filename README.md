@@ -1,67 +1,79 @@
-# 📦 SmartStock AI – Inventory Management & Demand Forecasting System
+# 📦 SmartStock AI
+### AI-Based Inventory Management & Sales Demand Forecasting System
 
-An AI-powered Inventory Management and Sales Forecasting Dashboard built using Python, Machine Learning, Pandas and Streamlit.
+SmartStock AI is an interactive web-based dashboard that combines Inventory Management, Data Analytics, and Machine Learning to analyze stock levels, monitor inventory, identify reorder requirements, and forecast future sales demand.
 
-## 🌐 Live Dashboard
+## 🌐 Live Project
 
-[Click Here to View SmartStock AI](https://smartstock-ai-h5vdjff4dbqmvjbbmcpqya.streamlit.app/)
+🚀 **Live Dashboard:**  
+https://smartstock-ai-h5vdjff4dbqmvjbbmcpgya.streamlit.app/
 
 ## 📌 Project Overview
 
-SmartStock AI is a data analytics and machine learning project designed to help businesses understand inventory levels, monitor stock availability, identify products requiring reorder, and forecast future sales demand.
+SmartStock AI helps businesses understand inventory performance and historical sales patterns through interactive dashboards and machine learning-based demand forecasting.
 
-The project combines inventory analysis with machine learning-based sales forecasting in an interactive dashboard.
+The project contains two separate data modules:
+- Inventory Management using product-level demonstration data.
+- Sales Forecasting using historical Store Item Demand Forecasting data.
 
-## 🚀 Key Features
+## ✨ Key Features
 
 ### 1. Inventory Management
-- Total Products and Stock Analysis
-- Remaining Stock Calculation
-- Product-wise Inventory Details
+- Total Product Analysis
+- Total and Remaining Stock
+- Product-wise Stock Details
 - Low Stock Alerts
 - Reorder Quantity Calculation
 - Reorder Cost Analysis
+- Inventory Valuation
 
 ### 2. Category-wise Analysis
 - Category-wise Product Details
-- Category-wise Stock Analysis
+- Category-wise Stock Summary
 - Remaining Stock Analysis
 - Category-wise Inventory Value
 - Category-wise Reorder Analysis
+- Category Filters
 
 ### 3. Interactive Dashboard
-- Store Filter
-- Product Filter
-- Date Range Filter
 - Product Search
-- Interactive Charts and KPIs
+- Category Filters
+- Stock Status Filters
+- Interactive KPIs
+- Data Visualization
 
-### 4. Sales Forecasting
+### 4. Sales Demand Forecasting
 - Historical Sales Analysis
 - Store-wise Sales Analysis
 - Product-wise Sales Analysis
-- Daily Demand Forecast
+- Daily Sales Trends
+- Future Sales Forecast
 - Top 5 Products Analysis
-- Daily Sales Trend
+- Forecast Performance Evaluation
 
 ### 5. Data Export
-- Download Inventory Report
-- Download Filtered Inventory
-- Download Category-wise Report
-- Download Reorder Report
-- Download Sales Forecast CSV
+- Inventory Report Download
+- Filtered Inventory Download
+- Category-wise Report Download
+- Reorder Report Download
+- Sales Forecast CSV Download
 
 ## 🤖 Machine Learning Model
 
 **Algorithm:** Random Forest Regressor
 
-Model Evaluation:
-- MAE: 6.4766
-- MSE: 71.0579
-- RMSE: 8.4296
-- R² Score: 0.92869
+Model Evaluation Results:
 
-The model uses historical sales information and engineered time-based features to predict sales demand.
+| Evaluation Metric | Result |
+|---|---:|
+| MAE | 6.4766 |
+| MSE | 71.0579 |
+| RMSE | 8.4296 |
+| R² Score | 0.92869 |
+
+The model uses historical sales data and time-based features to predict future demand.
+
+*Note: R² Score represents the proportion of variance explained by the model, not prediction accuracy.*
 
 ## 🛠️ Technologies Used
 
@@ -95,6 +107,8 @@ SmartStock-AI/
 └── category_inventory_report.csv
 ```
 
+*The repository structure may vary depending on the files uploaded.*
+
 ## ⚙️ Installation & Setup
 
 ### Step 1: Clone Repository
@@ -115,7 +129,7 @@ cd SmartStock-AI
 pip install -r requirements.txt
 ```
 
-### Step 4: Run Streamlit Dashboard
+### Step 4: Run Application
 
 ```bash
 streamlit run app.py
@@ -123,16 +137,26 @@ streamlit run app.py
 
 ## 📊 Dataset Information
 
-The project uses two separate datasets:
+This project uses two separate datasets:
 
-1. Store Item Demand Forecasting dataset for historical sales analysis and machine learning-based demand forecasting.
-2. Inventory demonstration dataset for product stock, category, price, sales and reorder analysis.
+**1. Store Item Demand Forecasting Dataset**
+- Historical sales records
+- Store information
+- Item information
+- Daily sales quantities
 
-These datasets serve different purposes within the project.
+**2. Inventory Demonstration Dataset**
+- Product names
+- Categories
+- Stock quantities
+- Product prices
+- Sales quantities
+
+These datasets are used independently for sales forecasting and inventory analysis.
 
 ## 🎯 Project Objective
 
-The main objective of SmartStock AI is to demonstrate how data analytics and machine learning can support inventory monitoring, stock management and sales demand forecasting.
+The objective of SmartStock AI is to demonstrate how Python, Data Analytics, and Machine Learning can help businesses monitor inventory, identify stock shortages, analyze sales trends, and estimate future demand.
 
 ## 👨‍💻 Developer
 
@@ -140,4 +164,8 @@ The main objective of SmartStock AI is to demonstrate how data analytics and mac
 
 - GitHub: https://github.com/anshuyadav9305561518
 - LinkedIn: https://linkedin.com/in/anshu-yadav-a57917289
-- Portfolio: https://
+- Portfolio: https://anshuyadav9305561518.github.io/Portfolio-/
+
+## 📜 License
+
+Created for educational, learning, and portfolio purposes.
